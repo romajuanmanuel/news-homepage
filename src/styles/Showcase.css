@@ -1,0 +1,106 @@
+.showcase {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+  padding-top: 0;
+}
+
+.showcase h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+}
+
+p {
+  line-height: 1.8;
+  color: hsl(236, 13%, 42%);
+}
+
+.wew3d {
+  width: 100%;
+  height: auto;
+}
+
+.showcase .first {
+  width: 70%;
+  padding: 0;
+}
+
+.showcase .sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 30%;
+  background-color: hsl(240, 100%, 5%);
+
+  padding: 1.25rem;
+}
+.showcase .sec h2{
+  color: hsl(35, 77%, 62%);
+}
+.showcase .sec p{
+  color: white;
+}
+
+.showcase .hola{
+  border-bottom: 1px solid #fff;
+}
+
+.showcase > div:last-child article{
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.showcase h3{
+color: white;
+}
+
+.showcase h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+}
+
+.showcase .first article p {
+  margin-bottom: 1rem;
+}
+
+.showcase .first article button {
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.showcase .first article button:hover {
+  background-color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
+
+
+.artFuture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artFuture h1{
+  padding: 10px;
+}
+
+.artFuture div {
+  padding: 10px;
+}
+
+.artFuture div p{
+  margin-bottom: 1rem;
+}
