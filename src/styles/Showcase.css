@@ -141,18 +141,43 @@ p {
     align-items: center; 
   }
   .showcase .first{
+    display: block;
     width: 100%;
-
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin-bottom: 20px ;
   }
 
   .showcase .first .wew3d {
     display: none;
+
   }
 
   .showcase .first .mobile-img {
     display: block;
     width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
+
+  .showcase .sec{
+    width: 100%;
+  }
+
+  .showcase .artFuture{
+    flex-direction: column;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .showcase .artFuture h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
 
 }
 
