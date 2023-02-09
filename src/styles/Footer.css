@@ -1,6 +1,37 @@
-.cards{
-    border: 1px solid black;
+.cards {
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  
+  .cards article {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    gap: 1.25rem;
+  }
+  
+  .cards article img {
+    width: 150px;
+  }
+  
+  .cards article span {
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: 75%;
+  }
+  
+  .cards article h4 {
+    font-size: 1.25rem;
+    color: hsl(240, 100%, 5%);
+    margin: 1rem 0;
+  }
+
+  @media (max-width: 960px) {
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 2rem;
+    }
+  }

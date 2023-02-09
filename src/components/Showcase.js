@@ -1,6 +1,7 @@
 import React from "react";
 import web3d from "../img/web3d.jpg";
 import "../styles/Showcase.css";
+import mobileImg from '../img/image-web-3-mobile.jpg';
 
 function Showcase() {
   return (
@@ -8,6 +9,7 @@ function Showcase() {
       <div className="first">
         <picture>
           <img className="wew3d" src={web3d} alt="" />
+          <img className="mobile-img" src={mobileImg} alt="" />
         </picture>
         <article className="artFuture">
           <h1>The Bright Future of Web 3.0?</h1>

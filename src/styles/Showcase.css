@@ -21,11 +21,17 @@ p {
 .wew3d {
   width: 100%;
   height: auto;
+  
+}
+
+.mobile-img{
+  display: none;
 }
 
 .showcase .first {
   width: 70%;
   padding: 0;
+  padding-right: 15px;
 }
 
 .showcase .sec {
@@ -34,27 +40,49 @@ p {
   justify-content: center;
   width: 30%;
   background-color: hsl(240, 100%, 5%);
-
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 0;
 }
-.showcase .sec h2{
+.showcase .sec h2 {
   color: hsl(35, 77%, 62%);
 }
-.showcase .sec p{
+.showcase .sec p {
   color: white;
 }
 
-.showcase .hola{
-  border-bottom: 1px solid #fff;
+.showcase div:first-child article button:hover {
+  background-color: hsl(240, 100%, 5%);
+  cursor: pointer;
 }
 
-.showcase > div:last-child article{
+.showcase .sec h2 {
+  color: hsl(35, 77%, 62%);
+}
+
+.showcase .sec article {
+  padding: 1.25rem 0;
+}
+
+.showcase .sec article:not(:last-child) {
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+}
+
+.showcase .sec h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.showcase .sec h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+.showcase >.sec article:not(:last-child) {
   border-bottom: 1px solid #fff;
   padding: 10px;
 }
 
-.showcase h3{
-color: white;
+.showcase h3 {
+  color: white;
 }
 
 .showcase h1 {
@@ -86,14 +114,13 @@ color: white;
   cursor: pointer;
 }
 
-
-.artFuture{
+.artFuture {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.artFuture h1{
+.artFuture h1 {
   padding: 10px;
 }
 
@@ -101,6 +128,31 @@ color: white;
   padding: 10px;
 }
 
-.artFuture div p{
+.artFuture div p {
   margin-bottom: 1rem;
 }
+
+@media (max-width: 960px){
+  .showcase{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+  }
+  .showcase .first{
+    width: 100%;
+
+  }
+
+  .showcase .first .wew3d {
+    display: none;
+  }
+
+  .showcase .first .mobile-img {
+    display: block;
+    width: 100%;
+  }
+
+}
+

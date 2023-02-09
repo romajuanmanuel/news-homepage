@@ -5,7 +5,7 @@
   padding: 1.25rem;
 }
 
-img {
+.logo img {
   padding: 10px;
 }
 
@@ -18,4 +18,19 @@ img {
 
 .nav-bar li {
   padding: 10px;
+}
+
+.nav-bar li:hover{
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+
+@media (max-width: 960px){
+ .nav-bar{
+  display: none;
+ }
+ .header{
+  margin-left: 10px;
+ }
 }
