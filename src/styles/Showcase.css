@@ -132,6 +132,8 @@ p {
   margin-bottom: 1rem;
 }
 
+
+
 @media (max-width: 960px){
   .showcase{
     display: flex;
