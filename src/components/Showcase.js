@@ -27,7 +27,7 @@ function Showcase() {
       <div className="sec">
         <h2>New</h2>
 
-        <article className="hola">
+        <article>
           <h3>Hydrogen VS Electric Cars</h3>
           <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </article>

@@ -1,11 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
-:root {
-	--mainColor: #29335c;
-	--mainColorLight: #5767aa;
-	--secondaryColor: #db2b39;
-	--textColor: #eee;
-}
 
 header {
 	display: flex;
@@ -13,7 +6,7 @@ header {
 	justify-content: space-between;
 	padding: 0 1rem;
 	color: black;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header .logo img {
@@ -27,7 +20,8 @@ nav a {
 }
 
 nav a:hover {
-	color: var(--secondaryColor);
+	color: hsl(5, 85%, 63%);
+  cursor: pointer;
 }
 
 header .nav-btn {
@@ -42,10 +36,11 @@ header .nav-btn {
 	font-size: 1.8rem;
 }
 
-header div,
 nav {
 	display: flex;
 	align-items: center;
+	margin-left: 650px ;
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -63,10 +58,10 @@ nav {
 		width: 50%;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items:flex-start;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--mainColor);
+		background-color: white;
 		transition: 1s;
 		transform: translateX(100vh);
 	}
@@ -84,4 +79,6 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 	}
+
+	
 }

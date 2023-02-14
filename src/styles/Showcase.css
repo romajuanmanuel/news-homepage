@@ -37,13 +37,14 @@ p {
 .showcase .sec {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   width: 30%;
   background-color: hsl(240, 100%, 5%);
   padding: 1.25rem 1.25rem 0;
 }
 .showcase .sec h2 {
   color: hsl(35, 77%, 62%);
+  
 }
 .showcase .sec p {
   color: white;
@@ -78,7 +79,6 @@ p {
 
 .showcase >.sec article:not(:last-child) {
   border-bottom: 1px solid #fff;
-  padding: 10px;
 }
 
 .showcase h3 {
@@ -134,7 +134,7 @@ p {
 
 
 
-@media (max-width: 960px){
+@media only screen and (max-width: 1024px){
   .showcase{
     display: flex;
     flex-direction: column;
